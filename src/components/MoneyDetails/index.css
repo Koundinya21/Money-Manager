@@ -1,0 +1,78 @@
+/* Write your CSS here */
+.Details-Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container1 {
+  background-color: #ecfccb;
+  border: 2px solid #84cc16;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-grow: 1;
+  width: 100%;
+
+  margin: 10px;
+}
+.container2 {
+  background-color: #cffafe;
+  border: 2px solid#06b6d4;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-grow: 1;
+  margin: 10px;
+  width: 100%;
+}
+.container3 {
+  background-color: #ede9fe;
+  border: 2px solid #7c3aed;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-grow: 1;
+  margin: 10px;
+  width: 100%;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+}
+.Money-det {
+  margin: 10px;
+}
+.img {
+  width: 60px;
+  height: 60px;
+}
+.heading-balance {
+  color: #334155;
+  font-size: 12px;
+  font-family: 'Roboto';
+  margin-bottom: 0px;
+  font-weight: 400;
+}
+.para {
+  color: #334155;
+  font-size: 18px;
+  font-family: 'Roboto';
+  margin-top: 8px;
+}
+
+@media screen and (min-width: 576px) {
+  .Details-Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
